@@ -9,6 +9,9 @@ change database details in dbconnect.php
 change database details in config.php
 
 define('PAYPAL_ID', 'Insert_PayPal_Business_Email');  replace this define('PAYPAL_ID', 'your_PayPal_Business_Email'); 
+define('PAYPAL_SANDBOX', TRUE); //TRUE or FALSE 
+Use FALSE for live account 
+Use TRUE for sandbox account 
 
 <----------------------------------------------------------------->
 Auto Return and Payment Data Transfer on PayPal Sandbox Account
